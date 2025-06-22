@@ -179,3 +179,33 @@ form h2 {
   margin-bottom: 1.6rem;
   color: var(--color-primary);
 }
+
+@media (max-width: 900px) {
+  .app {
+    grid-template-columns: 1fr;
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+  }
+  .sidebar {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 55%;
+  }
+
+  .app {
+    padding: 1.5rem;
+  }
+
+  .form-split-bill {
+    padding: 2rem;
+  }
+
+  form h2 {
+    font-size: 2rem;
+  }
+}
